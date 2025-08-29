@@ -2,12 +2,10 @@
   "version": 2,
   "functions": {
     "api/bfhl.js": {
-      "runtime": "nodejs18.x",
-      "memory": 128,
-      "maxDuration": 10
+      "runtime": "nodejs18.x"
     }
   },
   "routes": [
-    { "src": "/bfhl", "dest": "/api/bfhl" }  
+    { "src": "/bfhl", "dest": "/api/bfhl" }
   ]
 }
